@@ -1,0 +1,131 @@
+/* ===== Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Background ===== */
+body {
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+  color: #1e293b;
+}
+
+/* ===== Container ===== */
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* ===== Title ===== */
+h1 {
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #1e3a8a;
+}
+
+/* ===== Upload Box ===== */
+.upload-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.upload-box input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #c7d2fe;
+  border-radius: 10px;
+  background: #f8fafc;
+  transition: 0.2s;
+}
+
+.upload-box input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* ===== Button ===== */
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(37, 99, 235, 0.3);
+}
+
+/* ===== Loading ===== */
+.loading {
+  margin-top: 20px;
+  font-weight: 600;
+  color: #475569;
+}
+
+/* ===== Result Box ===== */
+.result-box {
+  margin-top: 30px;
+  text-align: left;
+}
+
+/* ===== Cards ===== */
+.card {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 16px;
+  border-left: 4px solid #2563eb;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.card h2,
+.card h3 {
+  margin-bottom: 10px;
+  color: #1e3a8a;
+}
+
+/* ===== Lists ===== */
+ul {
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* ===== Risk Colors ===== */
+.risk-low {
+  color: #16a34a;
+}
+
+.risk-medium {
+  color: #ca8a04;
+}
+
+.risk-high {
+  color: #dc2626;
+}
+
+.risk-critical {
+  color: #7f1d1d;
+  font-weight: bold;
+}
